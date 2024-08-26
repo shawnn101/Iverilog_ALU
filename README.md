@@ -110,6 +110,19 @@ module ALU_tb;
 endmodule
 ```
 
+## Output
+
+```bash
+A = 0011, B = 0101, ALU_Sel = 000, ALU_Out = 1000, CarryOut = 0
+A = 1010, B = 0011, ALU_Sel = 001, ALU_Out = 0111, CarryOut = 0
+A = 1100, B = 1010, ALU_Sel = 010, ALU_Out = 1000, CarryOut = 0
+A = 1100, B = 1010, ALU_Sel = 011, ALU_Out = 1110, CarryOut = 0
+A = 1100, B = 1010, ALU_Sel = 100, ALU_Out = 0110, CarryOut = 0
+A = 1100, B = 1010, ALU_Sel = 101, ALU_Out = 0011, CarryOut = 0
+A = 0011, B = 1010, ALU_Sel = 110, ALU_Out = 0110, CarryOut = 0
+A = 1001, B = 1010, ALU_Sel = 111, ALU_Out = 0100, CarryOut = 0
+```
+
 # IVerilog IDE
 Note: This program was created and ran from this website - https://hdlbits.01xz.net/wiki/Iverilog
 
